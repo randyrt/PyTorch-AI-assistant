@@ -1,0 +1,28 @@
+torch>=2.0.0
+transformers>=4.36.0
+accelerate>=0.25.0
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+python-multipart
+langdetect
+sentencepiece
+protobuf
+
+
+
+# pip install -r app/requirements.txt
+
+# Vérifie où tu es
+#pwd
+# Doit afficher /home/randy/portfolio-assistant
+
+# Créer l'environnement virtuel
+#python3 -m venv .venv
+
+# L'activer
+#source .venv/bin/activate
+
+# Vérifier que c'est activé (doit montrer (.venv))
+# which python
+# Doit afficher : /home/randy/portfolio-assistant/.venv/bin/python
