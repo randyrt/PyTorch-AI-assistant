@@ -1,0 +1,36 @@
+# pip install -r app/requirements.txt
+
+# Vérifie où tu es
+#pwd
+# Doit afficher /home/randy/portfolio-assistant
+
+# Créer l'environnement virtuel
+#python3 -m venv .venv
+
+# L'activer
+#source .venv/bin/activate
+
+# Vérifier que c'est activé (doit montrer (.venv))
+# which python
+# Doit afficher : /home/randy/portfolio-assistant/.venv/bin/python
+
+# Utiliser le miroir Tsinghua (souvent plus rapide depuis l'Asie)
+# pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r app/requirements.txt
+# pip install -r app/requirements.txt --timeout 600
+
+
+# Cache des paquets installés (.deb)
+#sudo apt-get clean
+
+# Supprime les paquets obsolètes
+#sudo apt-get autoremove --purge -y
+
+# Cache des mises à jour
+#sudo rm -rf /var/lib/apt/lists/*
+#sudo apt-get update  # recrée les listes nécessaires
+
+# Supprime les logs de plus de 3 jours
+#sudo journalctl --vacuum-time=3d
+
+# Limite les logs à 500 MB
+# sudo journalctl --vacuum-size=500M

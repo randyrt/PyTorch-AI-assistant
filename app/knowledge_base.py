@@ -1,6 +1,3 @@
-cat > app/knowledge_base.py << 'EOF'
-"""Base de connaissances du portfolio"""
-
 from app.config import PORTFOLIO_KNOWLEDGE
 from typing import Optional, Tuple
 

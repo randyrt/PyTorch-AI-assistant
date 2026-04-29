@@ -8,21 +8,3 @@ python-multipart
 langdetect
 sentencepiece
 protobuf
-
-
-
-# pip install -r app/requirements.txt
-
-# Vérifie où tu es
-#pwd
-# Doit afficher /home/randy/portfolio-assistant
-
-# Créer l'environnement virtuel
-#python3 -m venv .venv
-
-# L'activer
-#source .venv/bin/activate
-
-# Vérifier que c'est activé (doit montrer (.venv))
-# which python
-# Doit afficher : /home/randy/portfolio-assistant/.venv/bin/python
